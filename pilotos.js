@@ -33,10 +33,10 @@ export function processarLinha( line, pilotos ) {
   pilotos[codigo].horaFim = hora;
 };
 
-export function calcularResultados() {
+export function calcularResultados(pilotos,diferencaTempo, formatarTempo) {
 
   // Calcula o tempo total de prova
-  const resultados = Object.keys(pilotos).map(codigo => {
+  return Object.keys(pilotos).map(codigo => {
       const piloto = pilotos[codigo];
       const diferenca = diferencaTempo(piloto.horaInicio, piloto.horaFim);
       return {
@@ -45,15 +45,6 @@ export function calcularResultados() {
           voltas: piloto.voltas,
           tempoTotal: diferenca
       };
-  });
+  }); 
   
-  // Ordena pelo tempo numero de voltas && pelo total de prova (comparação feita em microsegundos)
-  resultados.sort((a, b) =>  a.voltas >= b.voltas && a.tempoTotal - b.tempoTotal );
-  
-
-  //Exibe o resultado da corrida
-  console.log('Posição Chegada \t|\t\t Código Piloto \t Nome Piloto \t\t|\t Voltas Completadas \t|\t Tempo Total de Prova');
-  resultados.forEach((piloto, index) => {
-      console.log(`\t ${index + 1} \t\t|\t\t ${piloto.codigo} - \t\t ${piloto.nome} \t\t|\t\t ${piloto.voltas} \t\t|\t\t ${formatarTempo(piloto.tempoTotal)}`);
-  });
 };
