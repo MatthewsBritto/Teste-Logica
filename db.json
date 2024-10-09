@@ -16,25 +16,25 @@
       "id": 3,
       "title": "placa de video",
       "category": "Eletronico",
-      "price": "1.500"
+      "price": "1500"
     },
     {
       "id": 4,
       "title": "headset",
       "category": "Eletronico",
-      "price": "200.00"
+      "price": "200"
     },
     {
       "id": 5,
       "title": "Camisa",
       "category": "Vestuario",
-      "price": "80.00"
+      "price": "80"
     },
     {
       "id": 6,
       "title": "blusa",
       "category": "Vestuario",
-      "price": "200.00"
+      "price": "200"
     }
   ],
   "profile": {
