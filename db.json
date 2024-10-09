@@ -35,12 +35,6 @@
       "title": "blusa",
       "category": "Vestuario",
       "price": "200"
-    }, 
-    {
-     "id": 7,
-      "title": "Chave Fenda",
-      "category": "Ferramenta",
-      "price": "50"
     }
   ],
   "profile": {
