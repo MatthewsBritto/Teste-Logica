@@ -5,31 +5,31 @@
       "name": "Celular",
       "category": "Eletronico",
       "price": 1.000
-    }
+    },
     {
       "id": 2,
       "name": "Placa de Video",
       "category": "Eletronico",
       "price": 950.00
-    }
+    },
     {
       "id": 3,
       "name": "Processador",
       "category": "Eletronico",
       "price": 1.200
-    }
+    },
     {
       "id": 4,
       "name": "Monitor",
       "category": "Eletronico",
       "price": 800.00
-    }
+    },
     {
       "id": 5,
       "name": "Alexia",
       "category": "Eletronico",
       "price":  700.00
-    },
+    }
   ],
   "profile": {
     "name": "typicode"
