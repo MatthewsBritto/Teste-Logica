@@ -3,7 +3,8 @@
     {
       "id": 1,
       "title": "celular",
-      "category": "Eletronico"
+      "category": "Eletronico",
+      "price": 800.00
     }
   ],
   "profile": {
