@@ -23,6 +23,18 @@
       "title": "headset",
       "category": "Eletronico",
       "price": "200.00"
+    },
+    {
+      "id": 5,
+      "title": "Camisa",
+      "category": "Vestuario",
+      "price": "80.00"
+    },
+    {
+      "id": 6,
+      "title": "blusa",
+      "category": "Vestuario",
+      "price": "200.00"
     }
   ],
   "profile": {
