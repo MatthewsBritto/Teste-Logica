@@ -23,31 +23,7 @@
       "title": "headset",
       "category": "Eletronico",
       "price": 200.00
-    },
-    {
-      "id": 5,
-      "title": "bone",
-      "category": "Vestuario",
-      "price": 140.00
-    },
-    {
-      "id": 6,
-      "title": "blusa",
-      "category": "Vestuario",
-      "price": 190.00
-    },
-    {
-      "id": 7,
-      "title": "camisa",
-      "category": "Vestuario",
-      "price": 90.00
-    },
-    {
-      "id": 8,
-      "title": "calca",
-      "category": "Vestuario",
-      "price": 200.00
-    }    
+    } 
   ],
   "profile": {
     "name": "typicode"
