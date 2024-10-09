@@ -1,8 +1,9 @@
 {
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "celular",
+      "category": "Eletronico"
     }
   ],
   "profile": {
